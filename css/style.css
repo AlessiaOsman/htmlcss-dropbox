@@ -73,7 +73,7 @@ nav {
     right: 0;
     left: 0;
     background-color: #fff;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px rgba(128,128,128, 0.4);
 }
 
 header ul {
