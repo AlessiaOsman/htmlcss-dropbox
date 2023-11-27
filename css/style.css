@@ -81,7 +81,7 @@ header ul {
     align-items: center;
 }
 
-a {
+header a {
     text-decoration: none;
     color: #828282;
 }
@@ -127,6 +127,10 @@ footer {
     background-color: black;
     color: #fff;
     padding-bottom: var(--spacing-24);
+}
+
+footer a{
+    text-decoration: none;
 }
 
 
