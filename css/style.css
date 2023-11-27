@@ -21,28 +21,6 @@
 
 /*Utils*/
 
-.btn {
-    padding: var(--spacing-8) var(--spacing-16);
-}
-
-.btn.full {
-    width: 100%;
-    text-align: center;
-    margin-bottom: var(--spacing-24);
-}
-
-.btn.primary {
-    background-color: var(--color-primary);
-    color: #fff;
-    display: inline-block;
-}
-
-.btn.secondary {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
-}
-
 .container-big {
     max-width: 1200px;
     margin: 0 auto;
@@ -52,64 +30,7 @@
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
-}
-
-.bg-color-lightblue {
-    background-color: #b4d0e7;
-
-}
-
-.bg-color-grey {
-    background-color: lightgray;
-}
-
-.bg-color-green {
-    background-color: #a2d39b;
-}
-
-.bg-color-dark-red {
-    background-color: #61082b;
-}
-
-.bg-color-turquoise {
-    background-color: #0093ce;
-}
-
-.bg-color-red {
-    background-color: red;
-}
-
-.bg-color-blue {
-    background-color: #0d2481;
-}
-
-.bg-color-yellow {
-    background-color: #ffd830;
-}
-
-.flex-basis-30 {
-    flex-basis: 30%;
-}
-
-.text-color-dark-red {
-    color: #61082b;
-}
-
-.flex-basis-70 {
-    flex-basis: 70%;
-}
-
-.flex-basis-60 {
-    flex-basis: 60%;
-}
-
-.flex-basis-40 {
-    flex-basis: 40%;
-}
-
-.flex {
-    display: flex;
+    padding: 100px 0;
 }
 
 .row {
@@ -126,22 +47,6 @@
     flex-basis: 100%;
 }
 
-.gap-8 {
-    gap: var(--spacing-8);
-}
-
-.gap-16 {
-    gap: var(--spacing-16)
-}
-
-.gap-24 {
-    gap: var(--spacing-24)
-}
-
-.gap-32 {
-    gap: var(--spacing-32)
-}
-
 .w-60 {
     width: 60%;
 }
@@ -149,6 +54,7 @@
 .margin-large {
     margin-bottom: var(--spacing-48);
 }
+
 
 /*Generics*/
 
@@ -222,12 +128,7 @@ footer {
     padding-bottom: var(--spacing-24);
 }
 
-footer .footer-menu-list {
-    gap: var(--spacing-24);
-    flex-basis: calc(100% / 5);
 
-
-}
 
 footer ul {
     list-style-type: none;
@@ -405,10 +306,6 @@ footer hr {
     margin: 0
 }
 
-.dropbox-container.container-small {
-    padding: 100px 0;
-}
-
 .section-faq div {
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
@@ -418,6 +315,10 @@ footer hr {
     font-weight: bold;
 }
 
-.section-faq.container-small {
-    padding-bottom: 100px;
+/*footer*/
+footer .footer-menu-list {
+    gap: var(--spacing-24);
+    flex-basis: calc(100% / 5);
+
+
 }
