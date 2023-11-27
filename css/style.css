@@ -15,6 +15,7 @@
     --spacing-24: 24px;
     --spacing-32: 32px;
     --spacing-48: 48px;
+    --spacing-100: 100px;
 
     --color-primary: #0061ff
 }
@@ -34,7 +35,7 @@
 }
 
 .row {
-    margin: 0 -16px;
+    margin: 0 -16px 100px -16px;
     flex-wrap: wrap;
 }
 
@@ -238,7 +239,7 @@ footer hr {
 }
 
 .partner {
-    margin-bottom: var(--spacing-48);
+    margin-bottom: var(--spacing-100);
 }
 
 .partner div:last-child {
@@ -249,9 +250,6 @@ footer hr {
     margin-bottom: var(--spacing-24);
 }
 
-.plan-section {
-    margin-bottom: var(--spacing-48);
-}
 
 .partners-box {
     margin-top: var(--spacing-48);
