@@ -3,6 +3,11 @@
 
 }
 
+.bg-color-lightblue:hover {
+    border-color: lightcyan;
+
+}
+
 .bg-color-grey {
     background-color: var(--color-light-grey);
 }
@@ -11,24 +16,48 @@
     background-color: var(--color-green);
 }
 
+.bg-color-green:hover{
+    border-color: green;
+}
+
 .bg-color-dark-red {
     background-color: var(--color-dark-red);
+}
+
+.bg-color-dark-red:hover {
+    border-color: purple;
 }
 
 .bg-color-turquoise {
     background-color: var(--color-turquoise);
 }
 
+.bg-color-turquoise:hover {
+    border-color: lightskyblue;
+}
+
 .bg-color-red {
     background-color: var(--color-red);
+}
+
+.bg-color-red:hover {
+    border-color: lightcoral;
 }
 
 .bg-color-blue {
     background-color: var(--color-blue);
 }
 
+.bg-color-blue:hover {
+    border-color: lightblue;
+}
+
 .bg-color-yellow {
     background-color: var(--color-yellow);
+}
+
+.bg-color-yellow:hover {
+    border-color: lightgoldenrodyellow;
 }
 
 .text-color-dark-red {

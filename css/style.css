@@ -26,7 +26,7 @@
     --color-grey: grey;
     --color-light-grey: lightgray;
     --color-light-blue: #b4d0e7;
-    --color-green: #a2d39b;
+    --color-green: #a2d49c;
     --color-dark-red: #61082b;
     --color-turquoise: #0093ce;
     --color-red: red;
@@ -272,6 +272,7 @@ footer hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 10px solid transparent;
 }
 
 .partner-card img {
