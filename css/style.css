@@ -8,7 +8,7 @@
 /*Root*/
 
 :root {
-
+    
     /*Spacing*/
 
     --spacing-xs: 8px;
@@ -32,8 +32,6 @@
     --color-red: red;
     --color-blue: #0d2481;
     --color-yellow: #ffd830;
-
-
 }
 
 /*Generics*/
