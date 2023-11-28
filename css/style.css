@@ -54,6 +54,24 @@ nav {
     box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.4);
 }
 
+nav ul{
+    height: 100%;
+}
+
+nav li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav li:hover{
+    border-bottom: 2px solid var(--color-dark);
+}
+
+nav li:first-child:hover, nav li:last-child:hover{
+    border-bottom: none;
+}
+
 header ul {
     list-style-type: none;
     align-items: center;
@@ -147,6 +165,8 @@ footer hr {
 .header-jumbo a {
     margin-bottom: var(--spacing-m);
 }
+
+
 
 /*Main*/
 
