@@ -20,20 +20,21 @@
 
 /*Utils*/
 
-.container-big {
-    max-width: 1200px;
+.container{
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: var(--spacing-big);  
 }
 
-.container-small {
+.container.big {
+    max-width: 1200px;
+}
+
+.container.small {
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 100px 0;
 }
 
 .row {
-    margin: 0 -16px 100px -16px;
+    margin: 0 -16px var(--spacing-big) -16px;
     flex-wrap: wrap;
 }
 
@@ -58,7 +59,7 @@
 /*Generics*/
 
 body {
-    padding-top: 100px;
+    padding-top: var(--spacing-big);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -190,6 +191,8 @@ footer hr {
     color: var(--color-primary);
 }
 
+
+
 .card {
     border: 1px solid grey;
     height: 100%;
@@ -296,10 +299,10 @@ footer hr {
 
 .dropbox-container {
     align-items: baseline;
+    padding-bottom: var(--spacing-big);
 }
 
 .dropbox-container .btn {
-    flex-basis: 30%;
     border-color: transparent;
 }
 
