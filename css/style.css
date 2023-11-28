@@ -187,6 +187,10 @@ footer hr {
     padding: var(--spacing-s) var(--spacing-m)
 }
 
+.card-content .hidden-element{
+    height: 18px;
+}
+
 .card-title p:last-child {
     color: var(--color-grey);
 }
