@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+    padding-top: var(--spacing-big);  
+}
+
+.container.big {
+    max-width: 1200px;
+}
+
+.container.small {
+    max-width: 1000px;
+}
+
+.row {
+    margin: 0 -16px var(--spacing-big) -16px;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding: var(--spacing-s);
+    flex-basis: calc(100% / 3);
+}
+
+.col.full {
+    flex-basis: 100%;
+}
+
+.w-60 {
+    width: 60%;
+}
