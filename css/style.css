@@ -8,8 +8,6 @@
 /*Root*/
 
 :root {
-    font-family: 'Open Sans', sans-serif;
-
     --spacing-8: 8px;
     --spacing-16: 16px;
     --spacing-24: 24px;
@@ -61,6 +59,7 @@
 
 body {
     padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -209,7 +208,7 @@ footer hr {
     padding: var(--spacing-16) var(--spacing-24)
 }
 
-#card-title p:last-child {
+.card-title p:last-child {
     color: gray;
 }
 
@@ -223,13 +222,13 @@ footer hr {
     margin-bottom: var(--spacing-24);
 }
 
-.col.full #card-title div p {
+.col.full .card-title div p {
     color: #000;
     font-weight: bold;
     margin-bottom: var(--spacing-32);
 }
 
-.col.full #card-title>p {
+.col.full .card-title>p {
     color: #000;
 }
 
