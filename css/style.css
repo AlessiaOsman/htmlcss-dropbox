@@ -68,7 +68,7 @@ nav li:hover{
     border-bottom: 2px solid var(--color-dark);
 }
 
-nav li:first-child:hover, nav li:last-child:hover{
+nav .logo:hover, nav .btn:hover{
     border-bottom: none;
 }
 
