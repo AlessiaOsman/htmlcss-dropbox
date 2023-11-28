@@ -8,7 +8,7 @@
 /*Root*/
 
 :root {
-    
+
     /*Spacing*/
 
     --spacing-xs: 8px;
@@ -277,7 +277,7 @@ footer hr {
     padding-bottom: var(--spacing-big);
 }
 
-.dropbox-container .btn {
+.dropbox-container .btn.secondary {
     border-color: transparent;
 }
 
